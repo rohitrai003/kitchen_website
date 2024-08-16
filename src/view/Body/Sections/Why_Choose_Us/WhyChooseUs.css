@@ -1,0 +1,22 @@
+.whychooseus {
+  width: 70%;
+  font-family: var(--abeezee);
+  margin-top: 40px;
+}
+
+.whychooseus h3 {
+  color: var(--gold);
+  font-size: 12px;
+  margin-bottom: -20px;
+}
+
+.whychooseus h1 {
+  width: 50%;
+}
+
+.whychooseus .items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

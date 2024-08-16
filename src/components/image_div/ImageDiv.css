@@ -1,0 +1,48 @@
+.images {
+  width: 20%;
+  aspect-ratio: 9/14;
+  position: relative;
+  padding: 10px;
+  font-family: var(--abeezee);
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+
+.images img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brightness(80%);
+}
+
+.images .image-text {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.image-text h2 {
+  font-weight: bold;
+  width: 20px;
+}
+
+.image-text p {
+  font-size: 13px;
+}
+
+.image-text a {
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+
+.images:hover {
+  transition: 0.2s all ease-in-out;
+  transform: scale(1.05);
+}

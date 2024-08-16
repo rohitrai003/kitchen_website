@@ -1,0 +1,27 @@
+.customdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  width: 25%;
+}
+
+.customdiv .logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #1c1f26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customdiv h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.customdiv p {
+  font-size: 10px;
+  text-align: center;
+  width: 80%;
+}

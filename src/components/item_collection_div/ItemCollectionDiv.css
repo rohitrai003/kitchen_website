@@ -1,0 +1,14 @@
+.itemcollectiondiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemcollectiondiv h1 {
+  color: var(--gold);
+  margin-bottom: -20px;
+}
+
+.itemcollectiondiv p {
+  font-family: var(--abeezee);
+}

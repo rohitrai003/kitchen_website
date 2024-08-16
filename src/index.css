@@ -1,0 +1,22 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #181818;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*Font Family*/
+  --abeezee: "ABeeZee", sans-serif;
+  --bebas: "Bebas Neue", sans-serif;
+  --grey-go: "Grey Qo", cursive;
+  /*Color*/
+  --grey: #e5e5e5;
+  --background: #181818;
+  --gold: gold;
+  --light-black: #3e3e42;
+}

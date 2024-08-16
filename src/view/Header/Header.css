@@ -1,0 +1,89 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  font-family: var(--abeezee);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-image {
+  background-image: url("https://www.home-designing.com/wp-content/uploads/2016/10/Chrome-features-kitchen-all-black-panelling-concrete-floor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  filter: brightness(50%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.header-items {
+  width: 40%;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.header h1 {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: -20px;
+}
+
+.header p {
+  margin-bottom: -15px;
+}
+
+.header .header-button {
+  margin-top: 40px;
+  padding: 5px 25px;
+  background-color: #fff;
+  font-size: 12px;
+  min-height: 30px;
+  min-width: 80px;
+  letter-spacing: 2px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 0.2s all ease-in-out;
+}
+
+.header .header-button:hover {
+  transition: 0.2s all ease-in-out;
+  transform: scale(1.05);
+}
+
+.header .dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  bottom: -120px;
+}
+
+.dots p {
+  margin: 10px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.dots p:first-child {
+  height: 10px;
+  width: 10px;
+  background-color: transparent;
+  border: 1px solid #fff;
+}

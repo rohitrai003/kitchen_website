@@ -1,0 +1,53 @@
+.promovideo {
+  width: 90%;
+  height: 70vh;
+  margin-top: 50px;
+  position: relative;
+  margin-bottom: 60px;
+  font-family: var(--abeezee);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.promovideo .bg-image {
+  background: url("https://www.thespruce.com/thmb/BnQpJN5DuH4OVRdi8Pmmrak257c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SPR-modern-kitchen-ideas-7110474-hero-e78cb87316b847fb87fe807ffd4a0921.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(50%);
+}
+.promo-video-text {
+  position: relative;
+  z-index: 1;
+  padding: 50px 60px;
+  width: 40%;
+}
+
+.promo-video-text h3 {
+  color: var(--gold);
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: -20px;
+}
+
+.video {
+  height: 70%;
+  width: 35%;
+
+  position: relative;
+  z-index: 1;
+}
+
+.video img {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  object-fit: cover;
+  cursor: pointer;
+}

@@ -1,0 +1,129 @@
+.endfooter {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10%;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  /* margin-bottom: 80px; */
+  align-items: flex-start;
+  margin-top: 30px;
+  /* background-color: var(--light-black); */
+  padding-top: 30px;
+}
+
+.endfooter .footer-contact {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 0px 20px;
+  height: 100%;
+}
+
+.footer-contact .logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.footer-contact p {
+  font-size: 12px;
+  font-family: var(--abeezee);
+}
+.footer-social-icons {
+  height: 50px;
+  width: 100%;
+
+  background-color: aqua;
+}
+
+.footer-social-icons img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer-options {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px;
+  height: 100%;
+  align-items: start;
+
+  justify-content: space-around;
+}
+.footer-options .footer-options-items {
+  margin: 0px 20px;
+}
+
+.footer-options-items {
+  font-family: var(--abeezee);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-options-items h1 {
+  font-size: 20px;
+}
+
+.footer-options-items p {
+  margin-bottom: -10px;
+}
+
+.footer-options-items .items {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: fit-content;
+  width: fit-content;
+}
+/*Footer Subscribe*/
+.footer-subscribe {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  height: 100%;
+  font-family: var(--abeezee);
+}
+
+.footer-subscribe h1 {
+  font-size: 18px;
+}
+
+.footer-subscribe p {
+  font-size: 12px;
+}
+.footer-subscribe .email-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.email-text {
+  background-color: var(--light-black);
+}
+.email-text input {
+  width: 130px;
+  height: 30px;
+  border: none;
+  padding: 0px 10px;
+  background-color: transparent;
+  font-family: var(--abeezee);
+}
+.email-text input:focus {
+  outline: none;
+}
+
+.email-text a {
+  font-size: 10px;
+  text-decoration: none;
+  color: var(--gold);
+}
+.email-text a:hover {
+  transform: scale(1.05);
+}

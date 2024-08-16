@@ -1,0 +1,119 @@
+@media only screen and (min-width: 1025px) {
+  .navbar {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+  .navOne,
+  .navTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 5vh;
+    width: 75%;
+    padding: 0px 30px;
+  }
+
+  .navOne .social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navOne img {
+    height: 20px;
+    aspect-ratio: 1/1;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--abeezee);
+  }
+  .navOne-contact {
+    font-size: 9px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .navOne-contact a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .book-appointment {
+    background-color: #ffe802;
+    height: 5vh;
+    cursor: pointer;
+    padding: 0px 15px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s all ease-in-out;
+  }
+
+  .book-appointment:hover {
+    background-color: #ffb400;
+    transition: 0.3s all ease-in-out;
+  }
+
+  /*Navbar two styling*/
+  .navTwo {
+    padding-top: 10px;
+  }
+  .navTwo .logo {
+    font-family: var(--grey-go);
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navTwo-items {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-items a {
+    text-decoration: none;
+    font-family: var(--abeezee);
+    font-size: 12px;
+    margin: 0px 10px;
+    color: #fff;
+  }
+  .nav-items a:hover {
+    color: gold;
+  }
+
+  .nav-items-icons {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-items-icons i {
+    margin: 0px 5px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+  }
+  .nav-items-icons i:hover {
+    transform: scale(1.05);
+    transition: 0.3s all ease-in-out;
+  }
+}
